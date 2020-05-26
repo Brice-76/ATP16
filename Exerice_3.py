@@ -27,3 +27,5 @@ if __name__ == '__main__' :
     window=Window()
     window.show()
     app.exec_()
+pyinstaller --name="MyApplication2" --windowed --onefile Exercice_1.py
+pyinstaller --name="MyApplication" --windowed Exercice_1.py
